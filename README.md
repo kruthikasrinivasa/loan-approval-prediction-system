@@ -65,3 +65,17 @@ Output: Approved / Rejected
 ## 👩‍💻 Author
 Kruthika S  
 GitHub: https://github.com/kruthikasrinivasa
+
+## 📊 Results
+
+### Model Comparison
+![Model Comparison](artifacts/plots/model_comparison.png)
+
+### ROC Curve
+![ROC Curve](artifacts/plots/roc_curve_comparison.png)
+
+### Confusion Matrix (Best Model)
+![Confusion Matrix](artifacts/plots/best_model_confusion_matrix.png)
+
+### Feature Importance
+![Feature Importance](artifacts/plots/feature_importance.png)
