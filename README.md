@@ -54,21 +54,13 @@ docker run -p 8000:8000 loan-api
 
 ---
 
-## 🔌 API Endpoint
+## 🖥️ UI Preview
 
-POST /predict  
-Input: applicant details  
-Output: Approved / Rejected
+### Input Form
+![UI Form](artifacts/plots/ui_form.png)
 
----
-
-## 🚀 Demo
-- FastAPI Docs: http://127.0.0.1:8000/docs  
-- Frontend UI: http://localhost:8501
-
-## 👤 Author
-**Kruthika S**  
-🔗 GitHub: https://github.com/kruthikasrinivasa
+### Prediction Result
+![UI Result](artifacts/plots/ui_result.png)
 
 ## 📊 Results
 The following visualizations show model performance and evaluation metrics.
@@ -87,10 +79,20 @@ The following visualizations show model performance and evaluation metrics.
 ### Feature Importance
 ![Feature Importance](artifacts/plots/feature_importance.png)
 
-## 🖥️ UI Preview
 
-### Input Form
-![UI Form](artifacts/plots/ui_form.png)
+## 🔌 API Endpoint
 
-### Prediction Result
-![UI Result](artifacts/plots/ui_result.png)
+POST /predict  
+Input: applicant details  
+Output: Approved / Rejected
+
+---
+
+## 🚀 Demo
+- FastAPI Docs: http://127.0.0.1:8000/docs  
+- Frontend UI: http://localhost:8501
+
+## 👤 Author
+**Kruthika S**  
+🔗 GitHub: https://github.com/kruthikasrinivasa
+
