@@ -94,6 +94,11 @@ Output: Approved / Rejected
 Model experiments were tracked by recording performance metrics such as Accuracy and F1-score.  
 Different models were compared, and the best-performing model was selected based on evaluation results.
 
+## 🌐 Deployment
+
+The application is deployed locally using FastAPI and Docker.  
+It can be easily deployed on cloud platforms like Render or AWS.
+
 ## 🌟 Highlights
 
 ✔ End-to-end ML pipeline  
