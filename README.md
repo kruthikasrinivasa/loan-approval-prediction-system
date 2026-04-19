@@ -86,3 +86,11 @@ The following visualizations show model performance and evaluation metrics.
 
 ### Feature Importance
 ![Feature Importance](artifacts/plots/feature_importance.png)
+
+## 🖥️ UI Preview
+
+### Input Form
+![UI Form](artifacts/plots/ui_form.png)
+
+### Prediction Result
+![UI Result](artifacts/plots/ui_result.png)
