@@ -31,11 +31,11 @@ This project predicts whether a loan application will be approved or rejected us
 
 
 
-### Run Backend
+## Run Backend
 python -m uvicorn app.main:app --reload
 
 
-### Run Frontend
+## Run Frontend
 streamlit run frontend.py
 
 ---
