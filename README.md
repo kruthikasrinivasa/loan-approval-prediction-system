@@ -27,18 +27,13 @@ This project predicts whether a loan application will be approved or rejected us
 - Streamlit  
 - Docker  
 
----
-
-## ⚙️ How to Run Locally
-
-### 1️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
+ ---
 
 
 
 ### Run Backend
 python -m uvicorn app.main:app --reload
+
 
 ### Run Frontend
 streamlit run frontend.py
@@ -109,4 +104,11 @@ Different models were compared, and the best-performing model was selected based
 ## 👤 Author
 **Kruthika S**  
 🔗 GitHub: https://github.com/kruthikasrinivasa
+
+## ⚙️ How to Run Locally
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
 
