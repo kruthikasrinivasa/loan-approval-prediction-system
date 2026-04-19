@@ -1,27 +1,47 @@
-# Loan Approval Prediction System
+# 💰 Loan Approval Prediction System
 
-## Overview
-This project predicts whether a loan application will be approved using Machine Learning.
+## 📌 Overview
+This project predicts whether a loan application will be approved or rejected using Machine Learning. It uses applicant details like income, credit history, and loan amount to make accurate predictions.
 
-## Features
-- Data preprocessing
-- Feature engineering
-- Model training (Logistic Regression, Random Forest, Gradient Boosting)
-- Model comparison and evaluation
-- Visualization of results
-- FastAPI-based prediction API
-- Docker deployment
+---
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn
-- FastAPI
-- Docker
+## 🚀 Features
+- Data preprocessing & cleaning  
+- Feature engineering  
+- Model training (Logistic Regression, Random Forest, Gradient Boosting)  
+- Model comparison & evaluation  
+- Visualization of results  
+- FastAPI-based prediction API  
+- Interactive Streamlit frontend  
+- Docker deployment  
 
-## How to Run Locally
+---
 
+## 🛠️ Technologies Used
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- FastAPI  
+- Streamlit  
+- Docker  
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
+
+### Run Backend
 python -m uvicorn app.main:app --reload
+
+### Run Frontend
+streamlit run frontend.py
+
+---
+
+## 👩‍💻 Author
+Kruthika S  
+🔗 GitHub: https://github.com/kruthikasrinivasa
