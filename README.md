@@ -94,6 +94,11 @@ Output: Approved / Rejected
 - FastAPI Docs: http://127.0.0.1:8000/docs  
 - Frontend UI: http://localhost:8501
 
+## 🧪 Experiment Tracking
+
+Model experiments were tracked by recording performance metrics such as Accuracy and F1-score.  
+Different models were compared, and the best-performing model was selected based on evaluation results.
+
 ## 🌟 Highlights
 
 ✔ End-to-end ML pipeline  

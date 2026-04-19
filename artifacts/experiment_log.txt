@@ -1,0 +1,16 @@
+Experiment 1:
+Model: Logistic Regression
+Accuracy: 0.85
+F1 Score: 0.83
+
+Experiment 2:
+Model: Random Forest
+Accuracy: 0.82
+F1 Score: 0.80
+
+Experiment 3:
+Model: Gradient Boosting
+Accuracy: 0.84
+F1 Score: 0.82
+
+Best Model Selected: Logistic Regression
